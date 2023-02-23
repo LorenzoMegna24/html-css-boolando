@@ -76,12 +76,12 @@ section{
   width: 80%;
 }
 .card{
-  width: 30%;
-  margin: 0 10px;
+  flex-basis: calc(100% / 3 - 10px);
   margin-bottom: 30px;
 }
 .card img{
   width: 100%;
+  display: block;
 }
 .card .img-top {
   display: none;
