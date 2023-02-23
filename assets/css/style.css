@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Poppins', sans-serif;
+}
 /* utility */
 .flex{
   display: flex;
@@ -96,6 +99,7 @@ section{
   padding: 1px 5px;
   background-color: white;
   font-size: 25px;
+  font-weight: 600;
   z-index: 99;
 }
 .cuore:hover{
@@ -105,7 +109,7 @@ section{
   left: 0;
   bottom: 30px;
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 600;
   z-index: 99;
 }
 .sconto{
@@ -123,7 +127,7 @@ section{
 }
 .prezzo{
   color: red;
-  font-weight: bold;
+  font-weight: 600;
 }
 /* footer */
 footer{
