@@ -19,8 +19,13 @@
   left: 0;
   right: 0;
   z-index: 100;
-/* header */
 }
+a{
+  color: white;
+  text-decoration: none;
+}
+
+/* header */
 header{
   box-shadow: 0 2px 5px lightgray;
 }
@@ -39,10 +44,6 @@ nav{
   list-style-type: none;
   display: inline-block;
   margin: 0 10px;
-}
-li a{
-  color: white;
-  text-decoration: none;
 }
 .categorie{
   flex-basis: 20%;
